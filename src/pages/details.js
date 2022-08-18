@@ -10,7 +10,7 @@ export default function DetailPage() {
 	return (
 		<>
 			<Helmet>
-				<title key="title">Detailss</title>
+				<title key="title">Details</title>
 				<meta key="description" name="description" content="This is my project" />
 			</Helmet>
 			{isEditing ? <EditForm /> : <Details />}
